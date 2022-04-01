@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://kit.fontawesome.com/2001222899.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -13,9 +12,11 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="script.js" defer></script>
+
     <title>Matheus Ferreira's Portfolio</title>
 
-    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.png" type="image/png">
 
 </head>
 <body>
@@ -40,21 +41,99 @@
 
     <main>
 
-        <section class="portfolio">
-            <div class="text-wrapper">
-                <h2>Meu Portfolio</h2>
+        <section>
+            <h2>Meu Portfolio</h2>
+            <div class="btn-container">
+                <button onclick="applyFilter('all')" class="btn active">Mostrar tudo</button>
+                <button onclick="applyFilter('html')" class="btn">HTML</button>
+                <button onclick="applyFilter('css')" class="btn">CSS</button>
+                <button onclick="applyFilter('js')" class="btn">JavaScript</button>
+                <button onclick="applyFilter('react')" class="btn">React</button>
+                <button onclick="applyFilter('next')" class="btn">Next</button>
+                <button onclick="applyFilter('others')" class="btn">Outros</button>
             </div>
+
             <div class="port-wrapper">
-                <a href="https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro" class="port-box item1"> Profitchart <br> (mercado financeiro)</a>
-                <a href="https://github.com/matheus-ferreira1/music-player-JavaScript" class="port-box item4">Player de música</a>
-                <a href="https://github.com/matheus-ferreira1/game-FPS-trainer" class="port-box item6">Game FPS Trainer</a>
-                <a href="https://github.com/matheus-ferreira1/Calculadora-Simples" class="port-box item6">Calculadora juros compostos</a>
-                <a href="https://github.com/matheus-ferreira1/Calculadora-IMC" class="port-box item3">Calculadora IMC</a>
-                <a href="https://github.com/matheus-ferreira1/calculadora-juros-compostos" class="port-box item2">Calculadora simples</a>
-                <a href="https://github.com/matheus-ferreira1/Pagina-Spotify-Clone" class="port-box item5">Clone Landing page Spotify</a>
-                                
+
+                <div class="card html js"> 
+                    <div class="card-content">
+                        <img src="/img/calc.png" style="width:100%">
+                        <h4 class="project-title">Calculadora</h4>
+                        <p class="project-description">Calculadora simples totalmente funcional, semelhante as calculadoras disponíveis em dispositivos móveis e desktop</p>
+                        <div class="links">
+                            <a href="https://matheus-ferreira1.github.io/Calculadora-Basica/" target="_blank">Site</a>
+                            <a href="https://github.com/matheus-ferreira1/Calculadora-Basica" target="_blank">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card css">
+                    <div class="card-content">
+                        <img src="/img/spotify.png" style="width:100%">
+                        <h4 class="project-title">Clone home Spotify</h4>
+                        <p class="project-description">Clone da landing page do Spotify. O projeto possui um carrossel funcional Projeto feito utilizando o framework Bootstrap 4.</p>
+                        <div class="links">
+                            <a target="_blank" href="https://matheus-ferreira1.github.io/Pagina-Spotify-Clone/" >Site</a>
+                            <a target="_blank" href="https://github.com/matheus-ferreira1/Pagina-Spotify-Clone">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card js">
+                    <div class="card-content">
+                        <img src="/img/player.png" style="width:100%">
+                        <h4 class="project-title">Player de música</h4>
+                        <p class="project-description">Musica player totalmente funcional, com 5 faixas já embarcadas. Opções de auto replay e mute inclusas.</p>
+                        <div class="links">
+                            <a target="_blank" href="https://matheus-ferreira1.github.io/music-player-JavaScript/">Site</a>
+                            <a target="_blank" href="https://github.com/matheus-ferreira1/music-player-JavaScript">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card js">
+                    <div class="card-content">
+                        <img src="/img/fps.png" style="width:100%">
+                        <h4 class="project-title">Game FPS Trainer</h4>
+                        <p class="project-description">Game para eliminar alvos randomicos que aparecem, baseados na dificuldade e time selecionados no início.</p>
+                        <div class="links">
+                            <a target="_blank" href="https://matheus-ferreira1.github.io/game-FPS-trainer/">Site</a>
+                            <a target="_blank" href="https://github.com/matheus-ferreira1/game-FPS-trainer">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card js">
+                    <div class="card-content">
+                        <img src="/img/imc.png" style="width:100%">
+                        <h4 class="project-title">Calculadora IMC</h4>
+                        <p class="project-description">Calculadora de índice de massa corporal, semelhante as calculadoras disponíveis na web, com uma tabela colorida de referência. O resultado é dado com cor de fundo igual a da tabela.</p>
+                        <div class="links">
+                            <a target="_blank" href="https://matheus-ferreira1.github.io/Calculadora-IMC/">Site</a>
+                            <a target="_blank" href="https://github.com/matheus-ferreira1/Calculadora-IMC">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card js">
+                    <div class="card-content">
+                        <img src="/img/juros.png" style="width:100%">
+                        <h4 class="project-title">Calculadora juros compostos</h4>
+                        <p class="project-description">Este é um projeto com a finalidade de criar uma calculadora de juros simples e compostos, desenvolvida inteiramente com HTML e CSS, e tem sua lógica em JavaScript.</p>
+                        <div class="links">
+                            <a target="_blank" href="https://matheus-ferreira1.github.io/Calculadora-IMC/">Site</a>
+                            <a target="_blank" href="https://github.com/matheus-ferreira1/Calculadora-IMC">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card others">
+                    <div class="card-content">
+                        <img src="/img/stock.jpg" style="width:100%">
+                        <h4 class="project-title">Profitchart (mercado financeiro)</h4>
+                        <p class="project-description">esse eh others</p>
+                        <div class="links">
+                            <a target="_blank" href="#" disabled>Site</a>
+                            <a target="_blank" href="">Código</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            
         </section>
 
     </main>
