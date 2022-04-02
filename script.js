@@ -19,9 +19,17 @@ const projects = [
         title: 'Calculadora',
         imgName: 'calc.png',
         description: 'Calculadora simples totalmente funcional, semelhante as calculadoras disponíveis em dispositivos móveis e desktop',
-        stack: ['html', 'css', 'js'],
+        stack: ['html', 'js'],
         siteUrl: 'https://matheus-ferreira1.github.io/Calculadora-Basica/',
         codeUrl: 'https://github.com/matheus-ferreira1/Calculadora-Basica'
+    },
+    {
+        title: 'Glowing circle',
+        imgName: 'glow.png',
+        description: 'Círculo luminoso feito inteiramente com CSS para ter seu efeito rotativo. Já assstiu a algum show do Tame Impala?',
+        stack: ['css'],
+        siteUrl: 'https://matheus-ferreira1.github.io/css-glowing-circle/',
+        codeUrl: 'https://github.com/matheus-ferreira1/css-glowing-circle'
     },
     {
         title: 'Clone home Spotify',
@@ -119,10 +127,6 @@ function createItems(projects) {
     linkDiv.appendChild(linkCode);
 
     portWrapper.appendChild(cardDiv);
-
-
-
-
 }
 
 
