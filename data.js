@@ -1,4 +1,4 @@
-export const projects = [
+export const data = [
     {
         title: 'DT money',
         imgName: 'dtmoney.png',

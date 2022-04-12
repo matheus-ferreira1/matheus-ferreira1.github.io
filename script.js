@@ -1,11 +1,19 @@
 const projects = [
     {
-        title: 'DT money',
-        imgName: 'dtmoney.png',
-        description: 'Esta é uma aplicação desenvolvida para ajudar as pessoas a monitorarem seus gastos e receitas, separados por categoria.',
-        stack: ['react'],
-        siteUrl: '',
-        codeUrl: 'https://github.com/matheus-ferreira1/DT-money'
+        title: 'Profitchart (mercado financeiro)',
+        imgName: 'stock.jpg',
+        description: 'Projetos desenvolvidos atuando como freelancer, para a plataforma de operações em bolsa ProfitChart (Nelogica)',
+        stack: ['others'],
+        siteUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro',
+        codeUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro'
+    },
+    {
+        title: 'Churrascômetro',
+        imgName: 'churras.png',
+        description: 'Este é um projeto desenvolvido para estimar as quantidades de carnes e bebidas necessárias para um churrasco, baseado na quantidade de adultos, crianças e duração do evento.',
+        stack: ['react', 'js'],
+        siteUrl: 'https://churrascometro-matheus.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/churrascometro'
     },
     {
         title: 'Landing page',
@@ -14,6 +22,30 @@ const projects = [
         stack: ['html', 'css', 'js'],
         siteUrl: 'https://matheus-ferreira1.github.io/landing-page/',
         codeUrl: 'https://github.com/matheus-ferreira1/landing-page'
+    },
+    {
+        title: 'DT money',
+        imgName: 'dtmoney.png',
+        description: 'Esta é uma aplicação desenvolvida para ajudar as pessoas a monitorarem seus gastos e receitas, separados por categoria.',
+        stack: ['react'],
+        siteUrl: '',
+        codeUrl: 'https://github.com/matheus-ferreira1/DT-money'
+    },
+    {
+        title: 'Clone home Spotify',
+        imgName: 'spotify.png',
+        description: 'Clone da landing page do Spotify. O projeto possui um carrossel funcional Projeto feito utilizando o framework Bootstrap 4.',
+        stack: ['html', 'css'],
+        siteUrl: 'https://matheus-ferreira1.github.io/Pagina-Spotify-Clone/',
+        codeUrl: 'https://github.com/matheus-ferreira1/Pagina-Spotify-Clone'
+    },
+    {
+        title: 'Calculadora (React)',
+        imgName: 'calcreact.png',
+        description: 'Calculadora simples totalmente funcional, desenvolvida com React',
+        stack: ['html', 'js'],
+        siteUrl: 'https://calculator-matheus.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/calculator-react'
     },
     {
         title: 'Calculadora',
@@ -31,14 +63,7 @@ const projects = [
         siteUrl: 'https://matheus-ferreira1.github.io/css-glowing-circle/',
         codeUrl: 'https://github.com/matheus-ferreira1/css-glowing-circle'
     },
-    {
-        title: 'Clone home Spotify',
-        imgName: 'spotify.png',
-        description: 'Clone da landing page do Spotify. O projeto possui um carrossel funcional Projeto feito utilizando o framework Bootstrap 4.',
-        stack: ['html', 'css'],
-        siteUrl: 'https://matheus-ferreira1.github.io/Pagina-Spotify-Clone/',
-        codeUrl: 'https://github.com/matheus-ferreira1/Pagina-Spotify-Clone'
-    },
+    
     {
         title: 'Player de música',
         imgName: 'player.png',
@@ -71,14 +96,7 @@ const projects = [
         siteUrl: 'https://matheus-ferreira1.github.io/calculadora-juros-compostos/',
         codeUrl: 'https://github.com/matheus-ferreira1/calculadora-juros-compostos'
     },
-    {
-        title: 'Profitchart (mercado financeiro)',
-        imgName: 'stock.jpg',
-        description: 'Projetos desenvolvidos atuando como freelancer, para a plataforma de operações em bolsa ProfitChart (Nelogica)',
-        stack: ['others'],
-        siteUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro',
-        codeUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro'
-    },
+    
 ]
 
 //////////////////////////////////////////////////////
