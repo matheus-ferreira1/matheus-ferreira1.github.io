@@ -8,9 +8,17 @@ const projects = [
         codeUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro'
     },
     {
+        title: 'Carrinho e-commerce',
+        imgName: 'shoppingcart.png',
+        description: 'Este é um projeto desenvolvido para simular a página de um e-commerce, onde o usuário pode clicar nos produtos para adicioná-los ao carrinho.',
+        stack: ['react', 'js'],
+        siteUrl: 'https://shopping-matheus.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/shopping-cart-react'
+    },
+    {
         title: 'Churrascômetro',
         imgName: 'churras.png',
-        description: 'Este é um projeto desenvolvido para estimar as quantidades de carnes e bebidas necessárias para um churrasco, baseado na quantidade de adultos, crianças e duração do evento.',
+        description: 'Projeto para estimar a quantidade de carne e bebida necessária para um churrasco, baseado na quantidade de pessoas e duração do evento.',
         stack: ['react', 'js'],
         siteUrl: 'https://churrascometro-matheus.netlify.app/',
         codeUrl: 'https://github.com/matheus-ferreira1/churrascometro'
@@ -42,7 +50,7 @@ const projects = [
     {
         title: 'Calculadora (React)',
         imgName: 'calcreact.png',
-        description: 'Calculadora simples totalmente funcional, desenvolvida com React',
+        description: 'Calculadora simples totalmente funcional, semelhante as calculadoras disponíveis em dispositivos móveis. Desenvolvida com React',
         stack: ['html', 'js'],
         siteUrl: 'https://calculator-matheus.netlify.app/',
         codeUrl: 'https://github.com/matheus-ferreira1/calculator-react'
@@ -63,7 +71,7 @@ const projects = [
         siteUrl: 'https://matheus-ferreira1.github.io/css-glowing-circle/',
         codeUrl: 'https://github.com/matheus-ferreira1/css-glowing-circle'
     },
-    
+
     {
         title: 'Player de música',
         imgName: 'player.png',
@@ -83,7 +91,7 @@ const projects = [
     {
         title: 'Calculadora IMC',
         imgName: 'imc.png',
-        description: 'Calculadora de índice de massa corporal, semelhante as calculadoras disponíveis na web, com uma tabela colorida de referência. O resultado é dado com cor de fundo igual a da tabela.',
+        description: 'Calculadora de índice de massa corporal, semelhante as calculadoras disponíveis na web, com uma tabela colorida de referência. ',
         stack: ['js'],
         siteUrl: 'https://matheus-ferreira1.github.io/Calculadora-IMC/',
         codeUrl: 'https://github.com/matheus-ferreira1/Calculadora-IMC'
@@ -91,12 +99,12 @@ const projects = [
     {
         title: 'Calculadora juros compostos',
         imgName: 'juros.png',
-        description: 'Este é um projeto com a finalidade de criar uma calculadora de juros simples e compostos, desenvolvida inteiramente com HTML e CSS, e tem sua lógica em JavaScript.',
+        description: 'Este é um projeto com a finalidade de criar uma calculadora de e compostos, desenvolvida inteiramente com HTML e CSS e JavaScript.',
         stack: ['js'],
         siteUrl: 'https://matheus-ferreira1.github.io/calculadora-juros-compostos/',
         codeUrl: 'https://github.com/matheus-ferreira1/calculadora-juros-compostos'
     },
-    
+
 ]
 
 //////////////////////////////////////////////////////
@@ -155,13 +163,13 @@ let cards = document.querySelectorAll('.card')
 applyFilter('all')
 
 function applyFilter(tech) {
-    
+
     if (tech == 'all') {
         for (i = 0; i < cards.length; i++) {
             cards[i].classList.add('show')
         }
     }
-    
+
     if (tech == 'html') {
         for (i = 0; i < cards.length; i++) {
             if (cards[i].classList.contains("html")) {
@@ -234,9 +242,9 @@ function applyFilter(tech) {
 var btnContainer = document.querySelector(".btn-container");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+    btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
 }

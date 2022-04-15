@@ -15,6 +15,7 @@ a {
     --gray-bg: #222222;
     --text: #FCFCFC;
 }
+
 /*colors: #FCFCFC, #222222, #262626, #F36C4F  */
 
 body {
@@ -25,7 +26,8 @@ body {
     color: var(--text);
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     text-decoration: none;
 }
 
@@ -51,7 +53,8 @@ a:link, a:visited {
     justify-content: space-between;
 }
 
-.menu a:link, .menu a:visited {
+.menu a:link,
+.menu a:visited {
     text-decoration: none;
     color: var(--text);
     font-size: 0.9em;
@@ -92,10 +95,12 @@ main {
     background-color: transparent;
     cursor: pointer;
     transition: 0.2s;
-  }
+}
+
 .btn:hover {
     filter: brightness(0.8)
- }
+}
+
 .btn.active {
     background-color: var(--text);
     color: var(--gray-bg);
@@ -147,7 +152,7 @@ main {
 .card-content img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .links {
@@ -174,7 +179,7 @@ main {
 }
 
 
-  
+
 
 
 
@@ -219,18 +224,22 @@ footer {
     h3 {
         display: none;
     }
+
     .redes {
         width: 100px;
     }
+
     .menu {
         width: 100px;
     }
+
     .footer-container {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
+
     .port-wrapper .port-box {
         width: 70%;
     }
