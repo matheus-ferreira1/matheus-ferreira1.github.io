@@ -51,7 +51,7 @@ const projects = [
         title: 'Calculadora (React)',
         imgName: 'calcreact.png',
         description: 'Calculadora simples totalmente funcional, semelhante as calculadoras disponíveis em dispositivos móveis. Desenvolvida com React',
-        stack: ['html', 'js'],
+        stack: ['react', 'js'],
         siteUrl: 'https://calculator-matheus.netlify.app/',
         codeUrl: 'https://github.com/matheus-ferreira1/calculator-react'
     },
@@ -71,7 +71,6 @@ const projects = [
         siteUrl: 'https://matheus-ferreira1.github.io/css-glowing-circle/',
         codeUrl: 'https://github.com/matheus-ferreira1/css-glowing-circle'
     },
-
     {
         title: 'Player de música',
         imgName: 'player.png',
@@ -100,7 +99,7 @@ const projects = [
         title: 'Calculadora juros compostos',
         imgName: 'juros.png',
         description: 'Este é um projeto com a finalidade de criar uma calculadora de e compostos, desenvolvida inteiramente com HTML e CSS e JavaScript.',
-        stack: ['js'],
+        stack: ['js', 'html'],
         siteUrl: 'https://matheus-ferreira1.github.io/calculadora-juros-compostos/',
         codeUrl: 'https://github.com/matheus-ferreira1/calculadora-juros-compostos'
     },
