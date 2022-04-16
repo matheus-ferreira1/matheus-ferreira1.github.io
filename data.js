@@ -1,4 +1,36 @@
-export const data = [
+const projects = [
+    {
+        title: 'Profitchart (mercado financeiro)',
+        imgName: 'stock.jpg',
+        description: 'Projetos desenvolvidos atuando como freelancer, para a plataforma de operações em bolsa ProfitChart (Nelogica)',
+        stack: ['others'],
+        siteUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro',
+        codeUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro'
+    },
+    {
+        title: 'Carrinho e-commerce',
+        imgName: 'shoppingcart.png',
+        description: 'Este é um projeto desenvolvido para simular a página de um e-commerce, onde o usuário pode clicar nos produtos para adicioná-los ao carrinho.',
+        stack: ['react', 'js'],
+        siteUrl: 'https://shopping-matheus.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/shopping-cart-react'
+    },
+    {
+        title: 'Churrascômetro',
+        imgName: 'churras.png',
+        description: 'Projeto para estimar a quantidade de carne e bebida necessária para um churrasco, baseado na quantidade de pessoas e duração do evento.',
+        stack: ['react', 'js'],
+        siteUrl: 'https://churrascometro-matheus.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/churrascometro'
+    },
+    {
+        title: 'Landing page',
+        imgName: 'land.png',
+        description: 'Esta é uma landing page para um site de venda de serviços holísticos. A mesma contém carrossel e responsividade.',
+        stack: ['html', 'css', 'js'],
+        siteUrl: 'https://matheus-ferreira1.github.io/landing-page/',
+        codeUrl: 'https://github.com/matheus-ferreira1/landing-page'
+    },
     {
         title: 'DT money',
         imgName: 'dtmoney.png',
@@ -8,12 +40,20 @@ export const data = [
         codeUrl: 'https://github.com/matheus-ferreira1/DT-money'
     },
     {
-        title: 'Landing page',
-        imgName: 'land.png',
-        description: 'Esta é uma landing page para um site de venda de serviços holísticos. A mesma contém carrossel e responsividade.',
-        stack: ['html', 'css', 'js'],
-        siteUrl: 'https://matheus-ferreira1.github.io/landing-page/',
-        codeUrl: 'https://github.com/matheus-ferreira1/landing-page'
+        title: 'Clone home Spotify',
+        imgName: 'spotify.png',
+        description: 'Clone da landing page do Spotify. O projeto possui um carrossel funcional Projeto feito utilizando o framework Bootstrap 4.',
+        stack: ['html', 'css'],
+        siteUrl: 'https://matheus-ferreira1.github.io/Pagina-Spotify-Clone/',
+        codeUrl: 'https://github.com/matheus-ferreira1/Pagina-Spotify-Clone'
+    },
+    {
+        title: 'Calculadora (React)',
+        imgName: 'calcreact.png',
+        description: 'Calculadora simples totalmente funcional, semelhante as calculadoras disponíveis em dispositivos móveis. Desenvolvida com React',
+        stack: ['react', 'js'],
+        siteUrl: 'https://calculator-matheus.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/calculator-react'
     },
     {
         title: 'Calculadora',
@@ -30,14 +70,6 @@ export const data = [
         stack: ['css'],
         siteUrl: 'https://matheus-ferreira1.github.io/css-glowing-circle/',
         codeUrl: 'https://github.com/matheus-ferreira1/css-glowing-circle'
-    },
-    {
-        title: 'Clone home Spotify',
-        imgName: 'spotify.png',
-        description: 'Clone da landing page do Spotify. O projeto possui um carrossel funcional Projeto feito utilizando o framework Bootstrap 4.',
-        stack: ['html', 'css'],
-        siteUrl: 'https://matheus-ferreira1.github.io/Pagina-Spotify-Clone/',
-        codeUrl: 'https://github.com/matheus-ferreira1/Pagina-Spotify-Clone'
     },
     {
         title: 'Player de música',
@@ -58,7 +90,7 @@ export const data = [
     {
         title: 'Calculadora IMC',
         imgName: 'imc.png',
-        description: 'Calculadora de índice de massa corporal, semelhante as calculadoras disponíveis na web, com uma tabela colorida de referência. O resultado é dado com cor de fundo igual a da tabela.',
+        description: 'Calculadora de índice de massa corporal, semelhante as calculadoras disponíveis na web, com uma tabela colorida de referência. ',
         stack: ['js'],
         siteUrl: 'https://matheus-ferreira1.github.io/Calculadora-IMC/',
         codeUrl: 'https://github.com/matheus-ferreira1/Calculadora-IMC'
@@ -66,17 +98,11 @@ export const data = [
     {
         title: 'Calculadora juros compostos',
         imgName: 'juros.png',
-        description: 'Este é um projeto com a finalidade de criar uma calculadora de juros simples e compostos, desenvolvida inteiramente com HTML e CSS, e tem sua lógica em JavaScript.',
-        stack: ['js'],
+        description: 'Este é um projeto com a finalidade de criar uma calculadora de e compostos, desenvolvida inteiramente com HTML e CSS e JavaScript.',
+        stack: ['js', 'html'],
         siteUrl: 'https://matheus-ferreira1.github.io/calculadora-juros-compostos/',
         codeUrl: 'https://github.com/matheus-ferreira1/calculadora-juros-compostos'
     },
-    {
-        title: 'Profitchart (mercado financeiro)',
-        imgName: 'stock.jpg',
-        description: 'Projetos desenvolvidos atuando como freelancer, para a plataforma de operações em bolsa ProfitChart (Nelogica)',
-        stack: ['others'],
-        siteUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro',
-        codeUrl: 'https://github.com/matheus-ferreira1/ProfitChart-Mercado-Financeiro'
-    },
 ]
+
+export default projects;
