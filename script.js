@@ -111,8 +111,30 @@ const projects = [
         siteUrl: 'https://matheus-ferreira1.github.io/calculadora-juros-compostos/',
         codeUrl: 'https://github.com/matheus-ferreira1/calculadora-juros-compostos'
     },
-
 ]
+
+//////////////////////////////////////////////////////
+// tentativa de obter dados via ajax
+function fetchData() {
+    const url = './data.json';
+
+    let request = new XMLHttpRequest();
+
+    request.open("GET", url);
+    request.send();
+
+    request.onreadystatechange = () => {
+        if (request.readyState === 4 && request.status === 200) {
+            let data = JSON.parse(request.responseText);
+            console.log(request.response);
+
+            //   selection.innerHTML = data.map(users => `
+            //      <option>${users.id} - ${users.name}</option>
+            //   `)
+        }
+    };
+}
+fetchData();
 
 //////////////////////////////////////////////////////
 
