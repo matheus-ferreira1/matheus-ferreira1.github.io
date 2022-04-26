@@ -120,17 +120,18 @@ function fetchData() {
 
     let request = new XMLHttpRequest();
 
-    request.open("GET", url);
+    request.open("GET", url, true);
     request.send();
 
     request.onreadystatechange = () => {
         if (request.readyState === 4 && request.status === 200) {
-            let data = JSON.parse(request.responseText);
-            console.log(request.response);
+            let projects = JSON.parse(request.responseText);
+            console.log(projects);
 
-            //   selection.innerHTML = data.map(users => `
-            //      <option>${users.id} - ${users.name}</option>
-            //   `)
+            // for (i = 0; i < projects.length; i++) {
+            //     createItems(projects[i])
+            // }
+
         }
     };
 }
