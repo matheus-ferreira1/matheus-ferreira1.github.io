@@ -24,6 +24,14 @@ const projects = [
         codeUrl: 'https://github.com/matheus-ferreira1/churrascometro'
     },
     {
+        title: 'Border Radius Slider',
+        imgName: 'slider.png',
+        description: 'Projeto para mudar em tempo real a borda de um elemento através de um slider Utilizado TypeScript com React.',
+        stack: ['react'],
+        siteUrl: 'https://borderradius-matheus.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/border-radius-slider'
+    },
+    {
         title: 'Landing page',
         imgName: 'land.png',
         description: 'Esta é uma landing page para um site de venda de serviços holísticos. A mesma contém carrossel e responsividade.',
