@@ -24,6 +24,14 @@ const projects = [
         codeUrl: 'https://github.com/matheus-ferreira1/churrascometro'
     },
     {
+        title: 'Cotação da bolsa',
+        imgName: 'bolsa.png',
+        description: 'Aplicação que recupera dados da bolsa de valores e exibe para o usuário informações sobre cotação do ativo solicitado, além dos principais índices.',
+        stack: ['ajax', 'css', 'js'],
+        siteUrl: 'https://churrascometro-matheus.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/churrascometro'
+    },
+    {
         title: 'Border Radius Slider',
         imgName: 'slider.png',
         description: 'Projeto para mudar em tempo real a borda de um elemento através de um slider Utilizado TypeScript com React.',
