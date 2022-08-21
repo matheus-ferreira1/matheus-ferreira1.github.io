@@ -17,7 +17,7 @@ const projects = [
     },
     {
         title: 'Landing page de um banco',
-        imgName: 'bankLanding.img',
+        imgName: 'bankLanding.png',
         description: 'Projeto de uma moderna landing page de um banco, desenvolvido utilizando React e TailwindCSS, seguindo as práticas modernas do mercado.',
         stack: ['react', 'tailwind'],
         siteUrl: 'https://matheus-bank.netlify.app/',
