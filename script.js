@@ -16,6 +16,14 @@ const projects = [
         codeUrl: 'https://github.com/matheus-ferreira1/shopping-cart-react'
     },
     {
+        title: 'Landing page de um banco',
+        imgName: 'bankLanding.img',
+        description: 'Projeto de uma moderna landing page de um banco, desenvolvido utilizando React e TailwindCSS, seguindo as práticas modernas do mercado.',
+        stack: ['react', 'tailwind'],
+        siteUrl: 'https://matheus-bank.netlify.app/',
+        codeUrl: 'https://github.com/matheus-ferreira1/bank-landing-page'
+    },
+    {
         title: 'Churrascômetro',
         imgName: 'churras.png',
         description: 'Projeto para estimar a quantidade de carne e bebida necessária para um churrasco, baseado na quantidade de pessoas e duração do evento.',
